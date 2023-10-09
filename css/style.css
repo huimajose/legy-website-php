@@ -19,7 +19,8 @@ body {
 
 .header_section {
   font-family: "Roboto", sans-serif;
-  background-color: #1f233e;
+  /*background-color: #1f233e; */
+  background-color: #b20e99;
   color: #fff;
   min-height: 90px;
   padding: 1% 0;
@@ -142,14 +143,23 @@ a:focus {
   transform: translate3d(0, -100%, 0);
 }
 
+/*
 .slider_section .slider_box {
   display: flex;
   position: relative;
   height: calc(100vh - 90px);
-  background-image: url(../images/banner.jpg);
+ 
   background-size: cover;
   background-repeat: no-repeat;
 }
+*/
+
+.slider_image {
+  width: 100%; /* Defina a largura da imagem para ocupar 100% do contêiner pai */
+  height: auto; /* A altura será ajustada automaticamente para manter a proporção original da imagem */
+  display: block; /* Isso garante que a imagem não tenha espaços em branco ao redor dela */
+}
+
 
 .slider_section .slider_box .fixed_company-detail {
   position: absolute;
@@ -298,23 +308,23 @@ a:focus {
 }
 
 .service_img-container .service_img-box.i-box-1 {
-  width: 60%;
-  background-image: url(../images/s-1.jpg);
+  width: 30%;
+ background-image: url(../images/hotel.jpg);
 }
 
 .service_img-container .service_img-box.i-box-2 {
   width: 40%;
-  background-image: url(../images/s-2.jpg);
+ background-image: url(../images/hotel.jpg);
 }
 
 .service_img-container .service_img-box.i-box-3 {
   width: 40%;
-  background-image: url(../images/s-3.jpg);
+ background-image: url(../images/s-3.jpg);
 }
 
 .service_img-container .service_img-box.i-box-4 {
   width: 60%;
-  background-image: url(../images/s-4.jpg);
+ background-image: url(../images/s-4.jpg);
 }
 
 .service_section .service_img-container a,
@@ -398,15 +408,15 @@ a:focus {
 }
 
 .security_section .security_img-box.i-box-1 {
-  background-image: url(../images/security-1.jpg);
+  background-image: url(../legy/seg1.JPG);
 }
 
 .security_section .security_img-box.i-box-2 {
-  background-image: url(../images/security-2.jpg);
+  background-image: url(../legy/seg2.jpg);
 }
 
 .security_section .security_img-box.i-box-3 {
-  background-image: url(../images/security-3.jpg);
+  background-image: url(../legy/seg3.jpg);
 }
 
 .security_section .security_img-box a {

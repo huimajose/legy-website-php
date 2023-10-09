@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Royal</title>
+  <title>Legy Comercial</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"

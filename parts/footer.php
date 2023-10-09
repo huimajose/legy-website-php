@@ -6,20 +6,19 @@
         <div class=" col-md-4 info_detail">
           <div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable.
+            acreditamos que a segurança não é um luxo, mas sim uma necessidade. Conte conosco para proteger o que é mais importante para você. Entre em contato conosco hoje mesmo para saber como podemos ajudar a proteger o seu mundo.
             </p>
           </div>
         </div>
         <div class=" col-md-4 address_container">
           <div>
             <h3>
-              Address:
+              Morada:
             </h3>
             <div class="address_link-container">
               <a href="">
                 <img src="images/location.png" alt="">
-                <span> Address: 73 Canal Street, New York, NY
+                <span> Bairro Heva, Palanca, Huíla, Angola
                 </span>
               </a>
               <a href="">
@@ -30,7 +29,7 @@
               <a href="">
                 <img src="images/mail.png" alt="">
                 <span>
-                  Email: demo@gmail.com
+                  Email: geral@legy.ao
                 </span>
               </a>
             </div>
@@ -44,10 +43,10 @@
 
               </h3>
               <form action="">
-                <input type="email" placeholder="ENTER YOUR EMAIL">
+                <input type="email" placeholder="DIGITE O SEU EMAIL">
                 <div>
                   <button type="submit">
-                    Subscribe
+                    Subscrever
                   </button>
                 </div>
               </form>
@@ -78,8 +77,8 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      Copyright &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      Copyright &copy; Todos os direitos reservados
+      
     </p>
   </section>
   <!-- footer section -->
@@ -140,10 +139,13 @@
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 11,
         center: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
+          //lat: 40.645037,
+          lat:  -14.9635657749398,
+          lng:  13.466913520860134
+                },
       });
+      
+      
 
       var image = 'images/maps-and-flags.png';
       var beachMarker = new google.maps.Marker({
