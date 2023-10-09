@@ -25,4 +25,3 @@ if (array_key_exists($page, $routes)) {
     echo 'Error 404: Page not found';
 }
 ?>
- 
